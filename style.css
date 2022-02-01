@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap');
+
+
+h1, h2{
+   font-family: 'Amatic SC', cursive;
+   margin: 0;
+}
+body{
+   margin-top: 10vh;
+   background-color: rgb(55, 55, 55);
+   font-family: 'Roboto', sans-serif;
+}
+main{
+   display: flex;
+   width: 100vw;
+   height: 80vh;
+   align-items: stretch;
+}
+
+
+#left{
+min-width: 300px;
+background-image: url('./imgs/NYC.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+position: relative;
+display: flex;
+justify-content: center;
+}
+
+
+#banner{
+   background-color: rgba(0, 0, 0, 0.5);
+   width: 100%;
+   height: 120px;
+   position: relative;
+   margin-top: 120px;
+   padding: 0;
+}
+
+#img-caption{
+   color: white;
+   position: absolute;
+   top: 95%;
+}
+
+#img-caption a{
+   color: white;
+}
+
+h1{
+   
+   position: absolute;
+   color: white;
+   top: 25px;
+   font-size: 62px;
+   left: 5px;
+}
+
+#logo{
+width: 30%;
+position: absolute;
+top: 12px;
+left: 200px;
+}
+
+#right{
+   background-color: whitesmoke;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+#form-top{
+   display: flex;
+   background-color: white;
+   box-shadow: 0px 10px 20px -4px rgba(0,0,0,0.3);
+   margin-bottom: 30px;
+   gap: 40px;
+}
+
+#form-left, #form-right{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+}
+h2{
+   font-size: 36px;
+   margin-bottom: 15px;
+}
+label{
+   text-transform: uppercase;
+   font-weight: 300;
+   font-size: 0.8rem;
+}
+
+#form-top, #form-bottom{
+   padding-left: 50px;
+   padding-bottom: 15px;
+}
+
+p{
+   padding-left: 50px;
+   padding-right: 20%;
+   padding-bottom: 50px;
+   font-size: 1.2rem;
+}
+
+form input{
+   margin-bottom: 20px;
+}
+
+form a{
+   text-decoration: none;
+   color: white;
+   font-weight: 700;
+   color: rgb(65,	143, 170);
+}
+
+button{
+   border: none;
+   background-color: rgb(65,	143, 170);
+   padding: 10px 30px;
+   border-radius: 5px;
+   color: white;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+
+#pwd::after{
+   content: "errorrr";
+}
+
+
+ 
+ 
+ 
+ input:invalid {
+   box-shadow: 0 0 3px 1px red;
+ }
+ 
+ input:focus:invalid {
+   box-shadow: none;
+ }
